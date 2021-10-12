@@ -4,28 +4,39 @@
     <img alt="App printscreen" width="950" src="docs/print-todo.png"/>
 </p>
 
-<br />
-
 # About The Project
 
-This is a simple React JS project TODO.
+This is a simple TODO project with React JS.
 
 ## The Challange
 
-Create a three functions
+Create three functions to manipulate the data in a TODO list:
 
-This project helped me to consolidate knowledge on React fundamentals like:
+- `handleCreateNewTask()` - Add new task
+- `handleToggleTaskCompletion()` - Check task completed
+- `handleRemoveTask()` - Delete task
 
-- Components
-- State
-- Props
+## Run the Project
 
-I had to develop three functions on this app:
+Run the following codes:
 
-- Add new task
-- Check task completed
-- Delete task
+```bash
+git clone https://github.com/leomiranda/rocketseat-ignite-reactjs-chapter-01-challenge-01.git
+cd rocketseat-ignite-reactjs-chapter-01-challenge-01
+yarn
+yarn dev
+```
 
-The tests was made by Rocketseat team, and the grade was gave by Rocketseat's platform!
+## Validade with Test
 
-#theFutureIsOpenSource :fire:
+To validate the functions run the following code:
+
+```bash
+yarn test
+```
+
+Test result:
+
+<p align="center" >
+    <img alt="App printscreen" width="477" src="docs/todo-test.png"/>
+</p>
